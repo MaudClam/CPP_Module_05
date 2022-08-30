@@ -37,7 +37,7 @@ void	ShrubberyCreationForm::execute(Bureaucrat const &executor) const {
 	std::ofstream	file;
 	
 	this->beExecuted(executor);
-	file.open((_target + "_shrubbery").c_str(),
+	file.open((_target + ".shrubbery").c_str(),
 				std::ofstream::out | std::ofstream::app);
 	if (file.good() == false)
 		throw FailedToOpenFileException();
