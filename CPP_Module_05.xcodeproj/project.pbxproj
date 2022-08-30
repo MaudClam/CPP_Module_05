@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A06351E028BE22E2009C8FEC /* Bureaucrat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06351DC28BE22E2009C8FEC /* Bureaucrat.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A06351E128BE22E2009C8FEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A06351DE28BE22E2009C8FEC /* main.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A06351E528BE22F5009C8FEC /* Bureaucrat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A06351DD28BE22E2009C8FEC /* Bureaucrat.hpp */; };
+		A0706AC328BE26130081028F /* Form.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706AC028BE26130081028F /* Form.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706AC428BE26130081028F /* Bureaucrat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706AC128BE26130081028F /* Bureaucrat.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706ACB28BE264C0081028F /* Bureaucrat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706ABE28BE26130081028F /* Bureaucrat.hpp */; };
+		A0706ACF28BE26540081028F /* Form.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706ABF28BE26130081028F /* Form.hpp */; };
+		A0706AD328BE26850081028F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706AD228BE26850081028F /* main.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706AE828BE278D0081028F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706AE728BE278D0081028F /* main.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706AFA28BE27DE0081028F /* ShrubberyCreationForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706AF028BE27DE0081028F /* ShrubberyCreationForm.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706AFC28BE27DE0081028F /* RobotomyRequestForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706AF528BE27DE0081028F /* RobotomyRequestForm.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706AFD28BE27DE0081028F /* PresidentialPardonForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706AF628BE27DE0081028F /* PresidentialPardonForm.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706AFE28BE27DE0081028F /* AForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706AF728BE27DE0081028F /* AForm.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706AFF28BE27DE0081028F /* Bureaucrat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706AF928BE27DE0081028F /* Bureaucrat.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706B1228BE28CE0081028F /* AForm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706AF228BE27DE0081028F /* AForm.hpp */; };
+		A0706B1328BE28CE0081028F /* Bureaucrat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706AEF28BE27DE0081028F /* Bureaucrat.hpp */; };
+		A0706B1428BE28CE0081028F /* PresidentialPardonForm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706AF328BE27DE0081028F /* PresidentialPardonForm.hpp */; };
+		A0706B1528BE28CE0081028F /* RobotomyRequestForm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706AF428BE27DE0081028F /* RobotomyRequestForm.hpp */; };
+		A0706B1628BE28CE0081028F /* ShrubberyCreationForm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706AF828BE27DE0081028F /* ShrubberyCreationForm.hpp */; };
+		A0706B4028BE29C00081028F /* Intern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706B3528BE29C00081028F /* Intern.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706B4128BE29C00081028F /* ShrubberyCreationForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706B3628BE29C00081028F /* ShrubberyCreationForm.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706B4228BE29C00081028F /* Bureaucrat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706B3728BE29C00081028F /* Bureaucrat.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706B4328BE29C00081028F /* PresidentialPardonForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706B3928BE29C00081028F /* PresidentialPardonForm.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706B4528BE29C00081028F /* AForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706B3E28BE29C00081028F /* AForm.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706B4628BE29C00081028F /* RobotomyRequestForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706B3F28BE29C00081028F /* RobotomyRequestForm.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+		A0706B5028BE29DD0081028F /* AForm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706B3C28BE29C00081028F /* AForm.hpp */; };
+		A0706B5128BE29DD0081028F /* Bureaucrat.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706B3828BE29C00081028F /* Bureaucrat.hpp */; };
+		A0706B5228BE29DD0081028F /* Intern.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706B3D28BE29C00081028F /* Intern.hpp */; };
+		A0706B5328BE29DD0081028F /* PresidentialPardonForm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706B3328BE29BF0081028F /* PresidentialPardonForm.hpp */; };
+		A0706B5428BE29DD0081028F /* RobotomyRequestForm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706B3428BE29BF0081028F /* RobotomyRequestForm.hpp */; };
+		A0706B5528BE29DD0081028F /* ShrubberyCreationForm.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A0706B3A28BE29C00081028F /* ShrubberyCreationForm.hpp */; };
+		A0706B6028BE2A250081028F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0706B5F28BE2A250081028F /* main.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Werror -std=c++98"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0706AA428BE25C10081028F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A0706AE328BE278D0081028F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A0706B2228BE29960081028F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A0F2C23528BE2296002CAAF1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A013398B28BE2B6A005B8C35 /* ex00 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex00; sourceTree = BUILT_PRODUCTS_DIR; };
+		A013398C28BE2B6A005B8C35 /* ex01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex01; sourceTree = BUILT_PRODUCTS_DIR; };
+		A013398D28BE2B6A005B8C35 /* ex02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex02; sourceTree = BUILT_PRODUCTS_DIR; };
+		A013398E28BE2B6A005B8C35 /* ex03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex03; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06351DC28BE22E2009C8FEC /* Bureaucrat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bureaucrat.cpp; sourceTree = "<group>"; };
+		A06351DD28BE22E2009C8FEC /* Bureaucrat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bureaucrat.hpp; sourceTree = "<group>"; };
+		A06351DE28BE22E2009C8FEC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A06351DF28BE22E2009C8FEC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A0706AA128BE252C0081028F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A0706ABE28BE26130081028F /* Bureaucrat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bureaucrat.hpp; sourceTree = "<group>"; };
+		A0706ABF28BE26130081028F /* Form.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Form.hpp; sourceTree = "<group>"; };
+		A0706AC028BE26130081028F /* Form.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Form.cpp; sourceTree = "<group>"; };
+		A0706AC128BE26130081028F /* Bureaucrat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bureaucrat.cpp; sourceTree = "<group>"; };
+		A0706AC228BE26130081028F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A0706AD228BE26850081028F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A0706AE728BE278D0081028F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A0706AEF28BE27DE0081028F /* Bureaucrat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bureaucrat.hpp; sourceTree = "<group>"; };
+		A0706AF028BE27DE0081028F /* ShrubberyCreationForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShrubberyCreationForm.cpp; sourceTree = "<group>"; };
+		A0706AF128BE27DE0081028F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A0706AF228BE27DE0081028F /* AForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AForm.hpp; sourceTree = "<group>"; };
+		A0706AF328BE27DE0081028F /* PresidentialPardonForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PresidentialPardonForm.hpp; sourceTree = "<group>"; };
+		A0706AF428BE27DE0081028F /* RobotomyRequestForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RobotomyRequestForm.hpp; sourceTree = "<group>"; };
+		A0706AF528BE27DE0081028F /* RobotomyRequestForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RobotomyRequestForm.cpp; sourceTree = "<group>"; };
+		A0706AF628BE27DE0081028F /* PresidentialPardonForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PresidentialPardonForm.cpp; sourceTree = "<group>"; };
+		A0706AF728BE27DE0081028F /* AForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AForm.cpp; sourceTree = "<group>"; };
+		A0706AF828BE27DE0081028F /* ShrubberyCreationForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ShrubberyCreationForm.hpp; sourceTree = "<group>"; };
+		A0706AF928BE27DE0081028F /* Bureaucrat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bureaucrat.cpp; sourceTree = "<group>"; };
+		A0706B3328BE29BF0081028F /* PresidentialPardonForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PresidentialPardonForm.hpp; sourceTree = "<group>"; };
+		A0706B3428BE29BF0081028F /* RobotomyRequestForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RobotomyRequestForm.hpp; sourceTree = "<group>"; };
+		A0706B3528BE29C00081028F /* Intern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Intern.cpp; sourceTree = "<group>"; };
+		A0706B3628BE29C00081028F /* ShrubberyCreationForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShrubberyCreationForm.cpp; sourceTree = "<group>"; };
+		A0706B3728BE29C00081028F /* Bureaucrat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bureaucrat.cpp; sourceTree = "<group>"; };
+		A0706B3828BE29C00081028F /* Bureaucrat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bureaucrat.hpp; sourceTree = "<group>"; };
+		A0706B3928BE29C00081028F /* PresidentialPardonForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PresidentialPardonForm.cpp; sourceTree = "<group>"; };
+		A0706B3A28BE29C00081028F /* ShrubberyCreationForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ShrubberyCreationForm.hpp; sourceTree = "<group>"; };
+		A0706B3B28BE29C00081028F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A0706B3C28BE29C00081028F /* AForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AForm.hpp; sourceTree = "<group>"; };
+		A0706B3D28BE29C00081028F /* Intern.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Intern.hpp; sourceTree = "<group>"; };
+		A0706B3E28BE29C00081028F /* AForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AForm.cpp; sourceTree = "<group>"; };
+		A0706B3F28BE29C00081028F /* RobotomyRequestForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RobotomyRequestForm.cpp; sourceTree = "<group>"; };
+		A0706B5F28BE2A250081028F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0706AA328BE25C10081028F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0706AE228BE278D0081028F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0706B2128BE29960081028F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F2C23428BE2296002CAAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A06351DB28BE22E2009C8FEC /* ex00 */ = {
+			isa = PBXGroup;
+			children = (
+				A06351DC28BE22E2009C8FEC /* Bureaucrat.cpp */,
+				A06351DD28BE22E2009C8FEC /* Bureaucrat.hpp */,
+				A06351DE28BE22E2009C8FEC /* main.cpp */,
+				A06351DF28BE22E2009C8FEC /* Makefile */,
+			);
+			path = ex00;
+			sourceTree = "<group>";
+		};
+		A0706AA728BE25C10081028F /* ex01 */ = {
+			isa = PBXGroup;
+			children = (
+				A0706AC128BE26130081028F /* Bureaucrat.cpp */,
+				A0706ABE28BE26130081028F /* Bureaucrat.hpp */,
+				A0706AC028BE26130081028F /* Form.cpp */,
+				A0706ABF28BE26130081028F /* Form.hpp */,
+				A0706AD228BE26850081028F /* main.cpp */,
+				A0706AC228BE26130081028F /* Makefile */,
+			);
+			path = ex01;
+			sourceTree = "<group>";
+		};
+		A0706AE628BE278D0081028F /* ex02 */ = {
+			isa = PBXGroup;
+			children = (
+				A0706AF728BE27DE0081028F /* AForm.cpp */,
+				A0706AF228BE27DE0081028F /* AForm.hpp */,
+				A0706AF928BE27DE0081028F /* Bureaucrat.cpp */,
+				A0706AEF28BE27DE0081028F /* Bureaucrat.hpp */,
+				A0706AE728BE278D0081028F /* main.cpp */,
+				A0706AF128BE27DE0081028F /* Makefile */,
+				A0706AF628BE27DE0081028F /* PresidentialPardonForm.cpp */,
+				A0706AF328BE27DE0081028F /* PresidentialPardonForm.hpp */,
+				A0706AF528BE27DE0081028F /* RobotomyRequestForm.cpp */,
+				A0706AF428BE27DE0081028F /* RobotomyRequestForm.hpp */,
+				A0706AF028BE27DE0081028F /* ShrubberyCreationForm.cpp */,
+				A0706AF828BE27DE0081028F /* ShrubberyCreationForm.hpp */,
+			);
+			path = ex02;
+			sourceTree = "<group>";
+		};
+		A0706B2528BE29960081028F /* ex03 */ = {
+			isa = PBXGroup;
+			children = (
+				A0706B3E28BE29C00081028F /* AForm.cpp */,
+				A0706B3C28BE29C00081028F /* AForm.hpp */,
+				A0706B3728BE29C00081028F /* Bureaucrat.cpp */,
+				A0706B3828BE29C00081028F /* Bureaucrat.hpp */,
+				A0706B3528BE29C00081028F /* Intern.cpp */,
+				A0706B3D28BE29C00081028F /* Intern.hpp */,
+				A0706B5F28BE2A250081028F /* main.cpp */,
+				A0706B3B28BE29C00081028F /* Makefile */,
+				A0706B3928BE29C00081028F /* PresidentialPardonForm.cpp */,
+				A0706B3328BE29BF0081028F /* PresidentialPardonForm.hpp */,
+				A0706B3F28BE29C00081028F /* RobotomyRequestForm.cpp */,
+				A0706B3428BE29BF0081028F /* RobotomyRequestForm.hpp */,
+				A0706B3628BE29C00081028F /* ShrubberyCreationForm.cpp */,
+				A0706B3A28BE29C00081028F /* ShrubberyCreationForm.hpp */,
+			);
+			path = ex03;
+			sourceTree = "<group>";
+		};
+		A0F2C22E28BE2295002CAAF1 = {
+			isa = PBXGroup;
+			children = (
+				A0706AA128BE252C0081028F /* .gitignore */,
+				A06351DB28BE22E2009C8FEC /* ex00 */,
+				A0706AA728BE25C10081028F /* ex01 */,
+				A0706AE628BE278D0081028F /* ex02 */,
+				A0706B2528BE29960081028F /* ex03 */,
+				A013398B28BE2B6A005B8C35 /* ex00 */,
+				A013398C28BE2B6A005B8C35 /* ex01 */,
+				A013398D28BE2B6A005B8C35 /* ex02 */,
+				A013398E28BE2B6A005B8C35 /* ex03 */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A06351E428BE22EE009C8FEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06351E528BE22F5009C8FEC /* Bureaucrat.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0706ACA28BE26480081028F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0706ACB28BE264C0081028F /* Bureaucrat.hpp in Headers */,
+				A0706ACF28BE26540081028F /* Form.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0706B0628BE284A0081028F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0706B1228BE28CE0081028F /* AForm.hpp in Headers */,
+				A0706B1328BE28CE0081028F /* Bureaucrat.hpp in Headers */,
+				A0706B1428BE28CE0081028F /* PresidentialPardonForm.hpp in Headers */,
+				A0706B1528BE28CE0081028F /* RobotomyRequestForm.hpp in Headers */,
+				A0706B1628BE28CE0081028F /* ShrubberyCreationForm.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0706B4F28BE29CB0081028F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0706B5028BE29DD0081028F /* AForm.hpp in Headers */,
+				A0706B5128BE29DD0081028F /* Bureaucrat.hpp in Headers */,
+				A0706B5228BE29DD0081028F /* Intern.hpp in Headers */,
+				A0706B5328BE29DD0081028F /* PresidentialPardonForm.hpp in Headers */,
+				A0706B5428BE29DD0081028F /* RobotomyRequestForm.hpp in Headers */,
+				A0706B5528BE29DD0081028F /* ShrubberyCreationForm.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A0706AA528BE25C10081028F /* ex01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0706AAA28BE25C10081028F /* Build configuration list for PBXNativeTarget "ex01" */;
+			buildPhases = (
+				A0706ACA28BE26480081028F /* Headers */,
+				A0706AA228BE25C10081028F /* Sources */,
+				A0706AA328BE25C10081028F /* Frameworks */,
+				A0706AA428BE25C10081028F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex01;
+			productName = ex01;
+			productReference = A013398C28BE2B6A005B8C35 /* ex01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		A0706AE428BE278D0081028F /* ex02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0706AE928BE278D0081028F /* Build configuration list for PBXNativeTarget "ex02" */;
+			buildPhases = (
+				A0706B0628BE284A0081028F /* Headers */,
+				A0706AE128BE278D0081028F /* Sources */,
+				A0706AE228BE278D0081028F /* Frameworks */,
+				A0706AE328BE278D0081028F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex02;
+			productName = ex02;
+			productReference = A013398D28BE2B6A005B8C35 /* ex02 */;
+			productType = "com.apple.product-type.tool";
+		};
+		A0706B2328BE29960081028F /* ex03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0706B2828BE29960081028F /* Build configuration list for PBXNativeTarget "ex03" */;
+			buildPhases = (
+				A0706B4F28BE29CB0081028F /* Headers */,
+				A0706B2028BE29960081028F /* Sources */,
+				A0706B2128BE29960081028F /* Frameworks */,
+				A0706B2228BE29960081028F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex03;
+			productName = ex03;
+			productReference = A013398E28BE2B6A005B8C35 /* ex03 */;
+			productType = "com.apple.product-type.tool";
+		};
+		A0F2C23628BE2296002CAAF1 /* ex00 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0F2C23E28BE2296002CAAF1 /* Build configuration list for PBXNativeTarget "ex00" */;
+			buildPhases = (
+				A06351E428BE22EE009C8FEC /* Headers */,
+				A0F2C23328BE2296002CAAF1 /* Sources */,
+				A0F2C23428BE2296002CAAF1 /* Frameworks */,
+				A0F2C23528BE2296002CAAF1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex00;
+			productName = CPP_Module_05;
+			productReference = A013398B28BE2B6A005B8C35 /* ex00 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0F2C22F28BE2295002CAAF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A0706AA528BE25C10081028F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A0706AE428BE278D0081028F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A0706B2328BE29960081028F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A0F2C23628BE2296002CAAF1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = A0F2C23228BE2295002CAAF1 /* Build configuration list for PBXProject "CPP_Module_05" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0F2C22E28BE2295002CAAF1;
+			productRefGroup = A0F2C22E28BE2295002CAAF1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F2C23628BE2296002CAAF1 /* ex00 */,
+				A0706AA528BE25C10081028F /* ex01 */,
+				A0706AE428BE278D0081028F /* ex02 */,
+				A0706B2328BE29960081028F /* ex03 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0706AA228BE25C10081028F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0706AC328BE26130081028F /* Form.cpp in Sources */,
+				A0706AC428BE26130081028F /* Bureaucrat.cpp in Sources */,
+				A0706AD328BE26850081028F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0706AE128BE278D0081028F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0706AFD28BE27DE0081028F /* PresidentialPardonForm.cpp in Sources */,
+				A0706AFF28BE27DE0081028F /* Bureaucrat.cpp in Sources */,
+				A0706AFE28BE27DE0081028F /* AForm.cpp in Sources */,
+				A0706AFC28BE27DE0081028F /* RobotomyRequestForm.cpp in Sources */,
+				A0706AE828BE278D0081028F /* main.cpp in Sources */,
+				A0706AFA28BE27DE0081028F /* ShrubberyCreationForm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0706B2028BE29960081028F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0706B4528BE29C00081028F /* AForm.cpp in Sources */,
+				A0706B4028BE29C00081028F /* Intern.cpp in Sources */,
+				A0706B4128BE29C00081028F /* ShrubberyCreationForm.cpp in Sources */,
+				A0706B4228BE29C00081028F /* Bureaucrat.cpp in Sources */,
+				A0706B6028BE2A250081028F /* main.cpp in Sources */,
+				A0706B4328BE29C00081028F /* PresidentialPardonForm.cpp in Sources */,
+				A0706B4628BE29C00081028F /* RobotomyRequestForm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0F2C23328BE2296002CAAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06351E128BE22E2009C8FEC /* main.cpp in Sources */,
+				A06351E028BE22E2009C8FEC /* Bureaucrat.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0706AAB28BE25C10081028F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92PJT7J9M9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0706AAC28BE25C10081028F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92PJT7J9M9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0706AEA28BE278D0081028F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92PJT7J9M9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0706AEB28BE278D0081028F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92PJT7J9M9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0706B2928BE29960081028F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92PJT7J9M9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0706B2A28BE29960081028F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92PJT7J9M9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0F2C23C28BE2296002CAAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0F2C23D28BE2296002CAAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0F2C23F28BE2296002CAAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92PJT7J9M9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0F2C24028BE2296002CAAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92PJT7J9M9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0706AAA28BE25C10081028F /* Build configuration list for PBXNativeTarget "ex01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0706AAB28BE25C10081028F /* Debug */,
+				A0706AAC28BE25C10081028F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0706AE928BE278D0081028F /* Build configuration list for PBXNativeTarget "ex02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0706AEA28BE278D0081028F /* Debug */,
+				A0706AEB28BE278D0081028F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0706B2828BE29960081028F /* Build configuration list for PBXNativeTarget "ex03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0706B2928BE29960081028F /* Debug */,
+				A0706B2A28BE29960081028F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F2C23228BE2295002CAAF1 /* Build configuration list for PBXProject "CPP_Module_05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F2C23C28BE2296002CAAF1 /* Debug */,
+				A0F2C23D28BE2296002CAAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0F2C23E28BE2296002CAAF1 /* Build configuration list for PBXNativeTarget "ex00" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F2C23F28BE2296002CAAF1 /* Debug */,
+				A0F2C24028BE2296002CAAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0F2C22F28BE2295002CAAF1 /* Project object */;
+}
