@@ -27,10 +27,10 @@ private:
 	const int			_execGrade;
 public:
 						AForm( void );
-						AForm( const std::string &name, const int sGrade, int eGrade );
 						AForm( const AForm &form );
 	AForm				&operator=(const AForm &form);
 	virtual				~AForm( void );
+						AForm( const std::string &name, const int sGrade, int eGrade );
 	const std::string	getName( void ) const;
 	bool				getSigned( void ) const;
 	int					getSignGrade( void ) const;

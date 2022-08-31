@@ -18,17 +18,6 @@ _signed( false ),
 _signGrade( 75 ),
 _execGrade( 75 ) {}
 
-AForm::AForm( const std::string &name, const int sGrade, int eGrade ) :
-_name(name),
-_signed( false ),
-_signGrade( sGrade ),
-_execGrade( eGrade ) {
-	if (sGrade < 1 || eGrade < 1)
-		throw GradeTooHighException();
-	if (sGrade > 150 || eGrade > 150)
-		throw GradeTooLowException();
-}
-
 AForm::AForm(const AForm &form) :
 _name( form._name ),
 _signed( form._signed ),
@@ -43,6 +32,17 @@ AForm	&AForm::operator=(const AForm &form) {
 }
 
 AForm::~AForm( void ) {
+}
+
+AForm::AForm( const std::string &name, const int sGrade, int eGrade ) :
+_name(name),
+_signed( false ),
+_signGrade( sGrade ),
+_execGrade( eGrade ) {
+	if (sGrade < 1 || eGrade < 1)
+		throw GradeTooHighException();
+	if (sGrade > 150 || eGrade > 150)
+		throw GradeTooLowException();
 }
 
 const std::string AForm::getName( void ) const {

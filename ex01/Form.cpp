@@ -18,17 +18,6 @@ _signed( false ),
 _signGrade( 75 ),
 _execGrade( 75 ) {}
 
-Form::Form( const std::string &name, const int sGrade, int eGrade ) :
-_name(name),
-_signed( false ),
-_signGrade( sGrade ),
-_execGrade( eGrade ) {
-	if (sGrade < 1 || eGrade < 1)
-		throw GradeTooHighException();
-	if (sGrade > 150 || eGrade > 150)
-		throw GradeTooLowException();
-}
-
 Form::Form(const Form &form) :
 _name( form._name ),
 _signed( form._signed ),
@@ -43,6 +32,17 @@ Form	&Form::operator=(const Form &form) {
 }
 
 Form::~Form( void ) {
+}
+
+Form::Form( const std::string &name, const int sGrade, int eGrade ) :
+_name(name),
+_signed( false ),
+_signGrade( sGrade ),
+_execGrade( eGrade ) {
+	if (sGrade < 1 || eGrade < 1)
+		throw GradeTooHighException();
+	if (sGrade > 150 || eGrade > 150)
+		throw GradeTooLowException();
 }
 
 const std::string Form::getName( void ) const {

@@ -27,10 +27,10 @@ private:
 	const int			_execGrade;
 public:
 						Form( void );
-						Form( const std::string &name, const int sGrade, int eGrade );
 						Form( const Form &form );
 	Form				&operator=(const Form &form);
 						~Form( void );
+						Form( const std::string &name, const int sGrade, int eGrade );
 	const std::string	getName( void ) const;
 	bool				getSigned( void ) const;
 	int					getSignGrade( void ) const;
