@@ -14,6 +14,7 @@
 # define ROBOTOMYREQUESTFORM_HPP
 
 # include <iostream>
+# include <cstdlib>
 # include "AForm.hpp"
 
 class RobotomyRequestForm : public AForm
