@@ -20,7 +20,7 @@ RobotomyRequestForm::RobotomyRequestForm( const std::string &target) :
 AForm ("Robotomy Request", 25, 5), _target( target ) {
 }
 
-RobotomyRequestForm::RobotomyRequestForm( const RobotomyRequestForm &form ) {
+RobotomyRequestForm::RobotomyRequestForm( const RobotomyRequestForm &form ) : AForm(form) {
 	*this = form;
 }
 

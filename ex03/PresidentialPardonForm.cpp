@@ -20,7 +20,7 @@ PresidentialPardonForm::PresidentialPardonForm( const std::string &target) :
 AForm ("Presidential Pardon", 25, 5), _target( target ) {
 }
 
-PresidentialPardonForm::PresidentialPardonForm( const PresidentialPardonForm &form ) {
+PresidentialPardonForm::PresidentialPardonForm( const PresidentialPardonForm &form ) : AForm(form) {
 	*this = form;
 }
 
