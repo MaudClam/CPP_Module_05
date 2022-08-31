@@ -20,7 +20,7 @@ ShrubberyCreationForm::ShrubberyCreationForm( const std::string &target) :
 AForm ("Shrubbery Creation Form", 145, 137), _target( target ) {
 }
 
-ShrubberyCreationForm::ShrubberyCreationForm( const ShrubberyCreationForm &form ) : Aform(form) {
+ShrubberyCreationForm::ShrubberyCreationForm( const ShrubberyCreationForm &form ) : AForm(form) {
 	*this = form;
 }
 
