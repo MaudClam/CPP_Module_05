@@ -9,7 +9,7 @@ HEADERS		=	Bureaucrat.hpp
 
 FLAGS		=	-Wall -Wextra -Werror -std=c++98
 
-CPP			=	clang++
+CPP			=	c++
 
 RM 			= 	rm -f
 
